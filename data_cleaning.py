@@ -19,3 +19,4 @@ def clean_text(text):
     filtered = [word for word in text.split() if word not in stop_words]
 
     return " ".join(filtered)
+    
