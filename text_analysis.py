@@ -60,7 +60,7 @@ if "cleaned_full" in st.session_state:
             "Cleaned Text:",
             st.session_state["cleaned_full"],
             height=300
-        )
+        ) 
 
         word_count = len(st.session_state["cleaned_full"].split())
         char_count = len(st.session_state["cleaned_full"])
